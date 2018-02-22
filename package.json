@@ -1,0 +1,17 @@
+{
+  "name": "react-redux-skeleton",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Yutaka Sasaki",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "start": "yarn run webpack-dev-server"
+  }
+}
