@@ -19,6 +19,7 @@ $ yarn run start
 * [x] Babel v7
 * [x] Webpacker v3
 * [x] Eslint (eslint-config-standard)
+* [x] prettier
 
 ## License
 MIT

@@ -14,11 +14,17 @@
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2",
+    "prettier-eslint": "^8.8.1",
+    "prettier-eslint-cli": "^4.7.1",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
-    "start": "yarn run webpack-dev-server",
-    "test:lint": "yarn run eslint src/**/*.js"
+    "precommit": "lint-staged",
+    "start": "webpack-dev-server",
+    "test:lint": "eslint src/**/*.js"
   }
 }
