@@ -1,3 +1,5 @@
-const val = 1
+import React from 'react'
+import { render } from 'react-dom'
+import Hello from './components/hello'
 
-console.log(`val: ${val}`)
+render(<Hello />, document.querySelector('#content'))

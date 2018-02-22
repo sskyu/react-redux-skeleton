@@ -1,5 +1,5 @@
-'use strict';
+'use strict'
 
 module.exports = {
-  "extends": "standard"
-};
+  extends: ['standard', 'plugin:react/recommended']
+}

@@ -14,7 +14,7 @@ $ yarn run start
 ```
 
 ## Uses
-* [ ] React v16
+* [x] React v16
 * [ ] Redux
 * [x] Babel v7
 * [x] Webpacker v3
