@@ -18,6 +18,7 @@ $ yarn run start
 * [ ] Redux
 * [x] Babel v7
 * [x] Webpacker v3
+* [x] Eslint (eslint-config-standard)
 
 ## License
 MIT
