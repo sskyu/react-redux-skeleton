@@ -1,5 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Hello from './components/hello'
+import configureStore from './store'
+import Containers from './containers'
 
-render(<Hello />, document.querySelector('#content'))
+const store = configureStore()
+
+render(<Containers store={store} />, document.querySelector('#content'))
